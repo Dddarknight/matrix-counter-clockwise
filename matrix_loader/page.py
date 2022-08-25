@@ -1,4 +1,3 @@
-from urllib import response
 import requests
 import asyncio
 from matrix_modification import make_counter_clockwise
