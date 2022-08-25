@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "matrix-counter-clockwise"
+version = "0.1.0"
+description = ""
+authors = ["Dddarknight <9801677@gmail.com>"]
+packages = [
+  { include = "matrix_loader" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+matrix-loader = "matrix_loader.scripts.matrix_loader:main"
