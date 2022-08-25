@@ -1,5 +1,5 @@
 lint:
-	poetry run flake8 matrix-loader
+	poetry run flake8 matrix_loader
 
 install:
 	poetry install
